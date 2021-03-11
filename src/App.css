@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.material-icons {
+  cursor: pointer;
+}
+
+.header-and-refresh {
+  display: flex;
+}
+
+.header-and-refresh .material-icons {
+  display: flex;
+  align-items: center;
+}
+
+.notes-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.note-item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 150px;
+  border: 1px solid black;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.note-text-field {
+  display: flex;
+  width: 95%;
+}
+
+.note-item .material-icons {
+  display: flex;
+  align-items: flex-start;
+}
+.add-note {
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.add-note textarea {
+  border: 1px solid black;
+}
